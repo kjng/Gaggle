@@ -28,9 +28,11 @@ const GroupList = ({ _handleChangePage, userGroups, deleteGroup, uid }) => {
               backgroundColor: stringToColor(group),
               marginTop: 20,
               justifyContent: 'space-between',
-              width: Dimensions.get('window').width*.48,
+              width: Dimensions.get('window').width*.45,
               height: Dimensions.get('window').height*.20,
-              padding: 13,
+              padding: 10,
+              marginLeft: Dimensions.get('window').width*.025,
+              marginRight: Dimensions.get('window').width*.025
             }}
           >
             <TouchableOpacity
